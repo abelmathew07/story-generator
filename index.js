@@ -1,4 +1,4 @@
-const customName = document.getElementById('customname');
+const cName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
 
@@ -34,8 +34,8 @@ function result() {
     
     newstory=newstory.replaceAll('insertZ',zItem)
 
-    if (customName.value !==' ') {
-       const name = customName.value;
+    if (cName.value !==' ') {
+       const name = cName.value;
         newstory = newstory.replaceAll('Bob',name);
       }
 
